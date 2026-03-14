@@ -131,25 +131,42 @@ h1 {
 }
 
 .card {
-    background:white;
+  background: transparent !important;
   padding:25px;
-  border-radius:12px;
+  border-radius: 12px;
+  border: 2px solid white;
   box-shadow:0 4px 12px rgba(0,0,0,0.08);
   transition:0.3s;
-}
- 
-.card:hover{
-  transform:translateY(-5px);
-  box-shadow:0 10px 20px rgba(0,0,0,0.12);
+  width: 800px;
+  max-width: 90%;
+  margin: 20px auto;
+  margin-bottom: 400px;
 }
 
+.card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.12);
+  -webkit-transform:translateY(-2px);
+  -moz-transform:translateY(-2px);
+  -ms-transform:translateY(-2px);
+  -o-transform:translateY(-2px);
+}
 
 .skills li{
-  background: white;
+  background: #e23c76;
   padding:12px;
   border-radius:8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  cursor: pointer;
 color: #FDD7E4;
+display: block;
+margin-bottom: 10px;
+}
+
+.skills li:hover{
+  background-color: gray;
+   transform:translateY(-5px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.12);
 }
 
 .footer{

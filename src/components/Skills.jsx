@@ -1,17 +1,15 @@
 function Skills() {
   return (
-    <section>
-      <h2>My Skills</h2>
+   <section className="skills card">
+  <h2>My Skills</h2>
  
-      <ul>
-        <li>Swimming</li>
-       <li>Make-up</li>
-       <li>Drawing</li>
-       <li>Painting</li>
-       <li>Art Crafting</li>
-      </ul>
- 
-    </section>
+  <ul>
+    <li>Swimming</li>
+    <li>Makeup</li>
+    <li>Drawing</li>
+    <li>Painting</li>
+  </ul>
+</section>
   )
 }
  
